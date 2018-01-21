@@ -1,0 +1,592 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.UnicodeDecodeError'> 'ascii' codec can't decode byte 0xe6 in position 6: ordinal not in range(128)"
+p3
+sS'layer'
+p4
+S'E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\views\\generic.pdf'
+p5
+sS'code'
+p6
+S"import os\nfrom gluon.contrib.generics import pdf_from_html\nfilename = '%s/%s.html' % (request.controller,request.function)\nif os.path.exists(os.path.join(request.folder,'views',filename)):\n    html=response.render(filename)\nelse:\n    html=BODY(BEAUTIFY(response._vars)).xml()\n    pass\nresponse.write(pdf_from_html(html))\nresponse.write('\\r\\n', escape=False)"
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of exceptions.UnicodeDecodeError object>"
+p13
+sS'encoding'
+p14
+S"'ascii'"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of exceptions.UnicodeDecodeError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of exceptions.UnicodeDecodeError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of exceptions.UnicodeDecodeError object>'
+p23
+sS'message'
+p24
+S"''"
+p25
+sS'__init__'
+p26
+S"<method-wrapper '__init__' of exceptions.UnicodeDecodeError object>"
+p27
+sS'__setattr__'
+p28
+S"<method-wrapper '__setattr__' of exceptions.UnicodeDecodeError object>"
+p29
+sS'__reduce_ex__'
+p30
+S'<built-in method __reduce_ex__ of exceptions.UnicodeDecodeError object>'
+p31
+sS'end'
+p32
+S'7'
+sS'__new__'
+p33
+S'<built-in method __new__ of type object>'
+p34
+sS'__format__'
+p35
+S'<built-in method __format__ of exceptions.UnicodeDecodeError object>'
+p36
+sS'__class__'
+p37
+S"<type 'exceptions.UnicodeDecodeError'>"
+p38
+sS'start'
+p39
+S'6'
+sS'__doc__'
+p40
+S"'Unicode decoding error.'"
+p41
+sS'object'
+p42
+S'\' <div>\\xe6\\xac\\xa2\\xe8\\xbf\\x8e\\xe4\\xbd\\xbf\\xe7\\x94\\xa8 web2py</div><span></span><a h...a href="http://stores.lulu.com/web2py">Buy web2py\''
+p43
+sS'__getitem__'
+p44
+S"<method-wrapper '__getitem__' of exceptions.UnicodeDecodeError object>"
+p45
+sS'__setstate__'
+p46
+S'<built-in method __setstate__ of exceptions.UnicodeDecodeError object>'
+p47
+sS'__getattribute__'
+p48
+S"<method-wrapper '__getattribute__' of exceptions.UnicodeDecodeError object>"
+p49
+sS'args'
+p50
+S'(\'ascii\', \' <div>\\xe6\\xac\\xa2\\xe8\\xbf\\x8e\\xe4\\xbd\\xbf\\xe7\\x94\\xa8 web2py</div><span></span><a h...a href="http://stores.lulu.com/web2py">Buy web2py\', 6, 7, \'ordinal not in range(128)\')'
+p51
+sS'reason'
+p52
+S"'ordinal not in range(128)'"
+p53
+sS'__subclasshook__'
+p54
+S'<built-in method __subclasshook__ of type object>'
+p55
+sS'__unicode__'
+p56
+S'<built-in method __unicode__ of exceptions.UnicodeDecodeError object>'
+p57
+sS'__delattr__'
+p58
+S"<method-wrapper '__delattr__' of exceptions.UnicodeDecodeError object>"
+p59
+sS'__repr__'
+p60
+S"<method-wrapper '__repr__' of exceptions.UnicodeDecodeError object>"
+p61
+sS'__hash__'
+p62
+S"<method-wrapper '__hash__' of exceptions.UnicodeDecodeError object>"
+p63
+ssS'evalue'
+p64
+S"'ascii' codec can't decode byte 0xe6 in position 6: ordinal not in range(128)"
+p65
+sS'request'
+p66
+cgluon.html
+XML_unpickle
+p67
+(S'sQY\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>IPlist</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-4b53b303-4a00-4805-9135-4da929879361<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_iplist</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-47550b8a-5b0b-414d-8406-b3ca8de10740<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>zh-CN,zh;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_admin=127.0.0.1-4b53b303-4a00-4805-9135-4da929879361; session_id_iplist=127.0.0.1-47550b8a-5b0b-414d-8406-b3ca8de10740</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/IPlist/default/index.pdf</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>56508</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>USER-20160508YB</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py\\\\applications\\\\IPlist\\\\&#x27;, &#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py\\\\applications\\\\welcome\\\\&#x27;, &#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py\\\\applications\\\\admin\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>E:\\Web2pyProject\\IPList\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x3e23448: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;USER-20160508YB&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>E:\\Web2pyProject\\IPList\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>zh-CN,zh;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_admin=127.0.0.1-4b53b303-4a00-4805-9135-4da929879361; session_id_iplist=127.0.0.1-47550b8a-5b0b-414d-8406-b3ca8de10740</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.107 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::1432:17fd:3f57:fe99%11</div></td></tr><tr><td><div>2001:0:dcfa:40e1:1432:17fd:3f57:fe99</div></td></tr><tr><td><div>192.168.1.102</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>192.168.221.1</div></td></tr><tr><td><div>fe80::f937:7e11:218:8293%18</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>fe80::9d72:a4d6:32f8:e0d8%12</div></td></tr><tr><td><div>fe80::d199:2e00:c63b:9d37%19</div></td></tr><tr><td><div>USER-20160508YB</div></td></tr><tr><td><div>192.168.233.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/IPlist/default/index.pdf</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>56508</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/IPlist/default/index.pdf</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>USER-20160508YB</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>E:\\Web2pyProject\\IPList\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.16.1-stable+timestamp.2017.11.13.23.50.07</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x0000000001E96150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x0000000003DD5EE8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x000000000E5FE390&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x0000000001E96150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x0000000003DD5EE8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x000000000E5FE390&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>pdf</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py\\\\applications\\\\IPlist\\\\&#x27;, &#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py\\\\applications\\\\welcome\\\\&#x27;, &#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py\\\\applications\\\\admin\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>E:\\Web2pyProject\\IPList\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x3e23448: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;USER-20160508YB&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>E:\\Web2pyProject\\IPList\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::1432:17fd:3f57:fe99%11</div></td></tr><tr><td><div>2001:0:dcfa:40e1:1432:17fd:3f57:fe99</div></td></tr><tr><td><div>192.168.1.102</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>192.168.221.1</div></td></tr><tr><td><div>fe80::f937:7e11:218:8293%18</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>fe80::9d72:a4d6:32f8:e0d8%12</div></td></tr><tr><td><div>fe80::d199:2e00:c63b:9d37%19</div></td></tr><tr><td><div>USER-20160508YB</div></td></tr><tr><td><div>192.168.233.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.16.1-stable+timestamp.2017.11.13.23.50.07</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 1, 6, 16, 26, 19, 263000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>pdf</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/IPlist/default/index.pdf</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 1, 6, 8, 26, 19, 263000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x00000000045BC208&gt;</div></td></tr></table></div>'
+tRp68
+sS'frames'
+p69
+(lp70
+(dp71
+S'file'
+p72
+S'E:\\Web2pyProject\\IPList\\web2py\\gluon\\restricted.py'
+p73
+sS'dump'
+p74
+(dp75
+S'environment'
+p76
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p77
+sS'ccode'
+p78
+S'<code object <module> at 000000000E8B7830, file ...y\\applications\\IPlist\\views\\generic.pdf", line 1>'
+p79
+ssS'lnum'
+p80
+I219
+sS'lines'
+p81
+(dp82
+I214
+S'    if environment is None:'
+p83
+sI215
+S'        environment = {}'
+p84
+sI216
+S"    environment['__file__'] = layer"
+p85
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p86
+sI218
+S'    try:'
+p87
+sI219
+S'        exec(ccode, environment)'
+p88
+sI220
+S'    except HTTP:'
+p89
+sI221
+S'        raise'
+p90
+sI222
+S'    except RestrictedError:'
+p91
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p92
+ssS'call'
+p93
+S'(ccode=<code object <module> at 000000000E8B7830, file ...y\\applications\\IPlist\\views\\generic.pdf", line 1>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'AppConfig\': <function AppConfig>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, ...}, layer=r\'E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\views\\generic.pdf\', scode="import os\\nfrom gluon.contrib.generics import pdf..._html(html))\\nresponse.write(\'\\\\r\\\\n\', escape=False)")'
+p94
+sS'func'
+p95
+S'restricted'
+p96
+sa(dp97
+g72
+S'E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\views\\generic.pdf'
+p98
+sg74
+(dp99
+sg80
+I9
+sg81
+(dp100
+I2
+S'import os'
+p101
+sI3
+S'from gluon.contrib.generics import pdf_from_html'
+p102
+sI4
+S"filename = '%s/%s.html' % (request.controller,request.function)"
+p103
+sI5
+S"if os.path.exists(os.path.join(request.folder,'views',filename)):"
+p104
+sI6
+S'   html=response.render(filename)'
+p105
+sI7
+S'else:'
+p106
+sI8
+S'   html=BODY(BEAUTIFY(response._vars)).xml()'
+p107
+sI9
+S'pass'
+p108
+sI10
+S'=pdf_from_html(html)'
+p109
+sI11
+S'}}'
+p110
+ssg93
+S'()'
+p111
+sg95
+S'<module>'
+p112
+sa(dp113
+g72
+S'E:\\Web2pyProject\\IPList\\web2py\\gluon\\contrib\\generics.py'
+p114
+sg74
+(dp115
+S'html'
+p116
+S'\'<!DOCTYPE html>\\r\\n<!--[if (gt IE 9)|!(IE)]><!--> ...4.js"></script>\\r\\n    \\r\\n    \\r\\n  </body>\\r\\n</html>\\r\\n\''
+p117
+sS'global pyfpdf_from_html'
+p118
+S'<function pyfpdf_from_html>'
+p119
+ssg80
+I76
+sg81
+(dp120
+I67
+S'    pdf.write_html(html, image_map=image_map)'
+p121
+sI68
+S"    return XML(pdf.output(dest='S'))"
+p122
+sI69
+S''
+sI70
+S''
+sI71
+S'def pdf_from_html(html):'
+p123
+sI72
+S'    # try use latex and pdflatex'
+p124
+sI73
+S"    if os.system('which pdflatex > /dev/null') == 0:"
+p125
+sI74
+S'        return pdflatex_from_html(html)'
+p126
+sI75
+S'    else:'
+p127
+sI76
+S'        return pyfpdf_from_html(html)'
+p128
+ssg93
+S'(html=\'<!DOCTYPE html>\\r\\n<!--[if (gt IE 9)|!(IE)]><!--> ...4.js"></script>\\r\\n    \\r\\n    \\r\\n  </body>\\r\\n</html>\\r\\n\')'
+p129
+sg95
+S'pdf_from_html'
+p130
+sa(dp131
+g72
+S'E:\\Web2pyProject\\IPList\\web2py\\gluon\\contrib\\generics.py'
+p132
+sg74
+(dp133
+S'pdf'
+p134
+S'<gluon.contrib.generics.MyFPDF object>'
+p135
+sS'html'
+p136
+S'\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\''
+p137
+sS'image_map'
+p138
+S'<function image_map>'
+p139
+sS'pdf.write_html'
+p140
+S'<bound method MyFPDF.write_html of <gluon.contrib.generics.MyFPDF object>>'
+p141
+ssg80
+I67
+sg81
+(dp142
+I64
+S"            'tr': ['bgcolor', 'height', 'width'],"
+p143
+sI65
+S"            'table': ['border', 'bgcolor', 'height', 'width'],"
+p144
+sI66
+S'        }, escape=False)'
+p145
+sI67
+S'    pdf.write_html(html, image_map=image_map)'
+p146
+sI68
+S"    return XML(pdf.output(dest='S'))"
+p147
+sI69
+S''
+sI70
+S''
+sI71
+S'def pdf_from_html(html):'
+p148
+sI62
+S"            'blockquote': ['type'],"
+p149
+sI63
+S"            'td': ['align', 'bgcolor', 'colspan', 'height', 'width'],"
+p150
+ssg93
+S'(html=\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\')'
+p151
+sg95
+S'pyfpdf_from_html'
+p152
+sa(dp153
+g72
+S'E:\\Web2pyProject\\IPList\\web2py\\gluon\\contrib\\fpdf\\html.py'
+p154
+sg74
+(dp155
+S'text'
+p156
+S'\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\''
+p157
+sS'h2p.unescape'
+p158
+S'<bound method HTML2FPDF.unescape of <gluon.contrib.fpdf.html.HTML2FPDF instance>>'
+p159
+sS'h2p'
+p160
+S'<gluon.contrib.fpdf.html.HTML2FPDF instance>'
+p161
+ssg80
+I400
+sg81
+(dp162
+I393
+S'        self.pdf.line(self.pdf.get_x(),self.pdf.get_y(),self.pdf.get_x()+187,self.pdf.get_y())'
+p163
+sI394
+S'        self.pdf.ln(3)'
+p164
+sI395
+S''
+sI396
+S'class HTMLMixin(object):'
+p165
+sI397
+S'    def write_html(self, text, image_map=None):'
+p166
+sI398
+S'        "Parse HTML and convert it to PDF"'
+p167
+sI399
+S'        h2p = HTML2FPDF(self, image_map)'
+p168
+sI400
+S'        text = h2p.unescape(text) # To deal with HTML entities'
+p169
+sI401
+S'        h2p.feed(text)'
+p170
+sI402
+S''
+ssg93
+S'(self=<gluon.contrib.generics.MyFPDF object>, text=\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\', image_map=<function image_map>)'
+p171
+sg95
+S'write_html'
+p172
+sa(dp173
+g72
+S'C:\\Python27\\lib\\HTMLParser.py'
+p174
+sg74
+(dp175
+S'global re'
+p176
+S"<module 're' from 'C:\\Python27\\lib\\re.pyc'>"
+p177
+sS's'
+S'\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\''
+p178
+sS'replaceEntities'
+p179
+S'<function replaceEntities>'
+p180
+sS're.sub'
+p181
+S'<function sub>'
+p182
+ssg80
+I472
+sg81
+(dp183
+I463
+S'                if HTMLParser.entitydefs is None:'
+p184
+sI464
+S'                    entitydefs = HTMLParser.entitydefs = {\'apos\':u"\'"}'
+p185
+sI465
+S'                    for k, v in htmlentitydefs.name2codepoint.iteritems():'
+p186
+sI466
+S'                        entitydefs[k] = unichr(v)'
+p187
+sI467
+S'                try:'
+p188
+sI468
+S'                    return self.entitydefs[s]'
+p189
+sI469
+S'                except KeyError:'
+p190
+sI470
+S"                    return '&'+s+';'"
+p191
+sI471
+S''
+sI472
+S'        return re.sub(r"&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));", replaceEntities, s)'
+p192
+ssg93
+S'(self=<gluon.contrib.fpdf.html.HTML2FPDF instance>, s=\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\')'
+p193
+sg95
+S'unescape'
+p194
+sa(dp195
+g72
+S'C:\\Python27\\lib\\re.py'
+p196
+sg74
+(dp197
+S'count'
+p198
+S'0'
+sS'string'
+p199
+S'\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\''
+p200
+sS'pattern'
+p201
+S"r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));'"
+p202
+sS'repl'
+p203
+S'<function replaceEntities>'
+p204
+sS').sub'
+p205
+S'undefined'
+p206
+sS'flags'
+p207
+S'0'
+sS'global _compile'
+p208
+S'<function _compile>'
+p209
+ssg80
+I151
+sg81
+(dp210
+I146
+S'    non-overlapping occurrences of the pattern in string by the'
+p211
+sI147
+S'    replacement repl.  repl can be either a string or a callable;'
+p212
+sI148
+S'    if a string, backslash escapes in it are processed.  If it is'
+p213
+sI149
+S"    a callable, it's passed the match object and must return"
+p214
+sI150
+S'    a replacement string to be used."""'
+p215
+sI151
+S'    return _compile(pattern, flags).sub(repl, string, count)'
+p216
+sI152
+S''
+sI153
+S'def subn(pattern, repl, string, count=0, flags=0):'
+p217
+sI154
+S'    """Return a 2-tuple containing (new_string, number).'
+p218
+sI155
+S'    new_string is the string obtained by replacing the leftmost'
+p219
+ssg93
+S'(pattern=r\'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));\', repl=<function replaceEntities>, string=\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\', count=0, flags=0)'
+p220
+sg95
+S'sub'
+p221
+sasS'pyver'
+p222
+S'Python 2.7.5: C:\\Python27\\python.exe (prefix: C:\\Python27)'
+p223
+sS'session'
+p224
+g67
+(S's\x93\x01\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">a</td><td style="vertical-align:top;">:</td><td><div>15</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">c</td><td style="vertical-align:top;">:</td><td><div>5</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr></table></div>'
+tRp225
+sS'etype'
+p226
+S"<type 'exceptions.UnicodeDecodeError'>"
+p227
+sS'date'
+p228
+S'Sat Jan 06 16:26:19 2018'
+p229
+sS'response'
+p230
+g67
+(S's\xd2>\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x000000000E985B90&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_iplist</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-47550b8a-5b0b-414d-8406-b3ca8de10740<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>/IPlist/static/js/jquery.js</div></td></tr><tr><td><div>/IPlist/static/css/calendar.css</div></td></tr><tr><td><div>/IPlist/static/js/calendar.js</div></td></tr><tr><td><div>/IPlist/static/js/web2py.js</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>\xe6\xac\xa2\xe8\xbf\x8e\xe4\xbd\xbf\xe7\x94\xa8 web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap4_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/IPlist/default/index.pdf</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>My Sites</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site.pdf</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe8\xaf\xa5\xe5\xba\x94\xe7\x94\xa8</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Design</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design.pdf/IPlist</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe6\x8e\xa7\xe4\xbb\xb6</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit.pdf/IPlist/controllers/default.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe6\x9f\xa5\xe7\x9c\x8b</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit.pdf/IPlist/views/default/index.pdf</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe6\xa8\xa1\xe5\x9e\x8b</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit.pdf/IPlist/models/db.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe8\x8f\x9c\xe5\x8d\x95\xe6\xa8\xa1\xe5\x9e\x8b(menu)</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit.pdf/IPlist/models/menu.py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Config.ini</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit.pdf/IPlist/private/appconfig.ini</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe7\xbd\x91\xe9\xa1\xb5\xe5\xb8\x83\xe5\xb1\x80</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit.pdf/IPlist/views/layout.html</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe7\xbd\x91\xe9\xa1\xb5\xe6\xa0\xb7\xe5\xbc\x8f\xe8\xa1\xa8</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/edit.pdf/IPlist/static/css/web2py-bootstrap3.css</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/IPlist/appadmin/index.pdf</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Errors</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/errors.pdf/IPlist</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe5\x85\xb3\xe4\xba\x8e</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about.pdf/IPlist</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>web2py.com</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>\xe4\xb8\x8b\xe8\xbd\xbd</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/download</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Support</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/support</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Demo</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/demo_admin</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Quick Examples</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/examples/default/examples</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>FAQ</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/AlterEgo</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe8\xa7\x86\xe9\xa2\x91</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/videos/</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Free Applications</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/appliances</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2py.com/plugins</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://web2pyslices.com/</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Documentation</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Online book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Preface</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/00</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Introduction</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/01</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Python</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/02</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe6\xa6\x82\xe8\xa7\x88</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/03</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>The Core</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/04</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe8\xa7\x86\xe5\x9b\xbe</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/05</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/06</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Forms and Validators</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/07</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Email and SMS</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/08</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Access Control</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/09</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Services</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/10</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Ajax Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/11</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Components and Plugins</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/12</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Deployment Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/13</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Other Recipes</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/14</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Helping web2py</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/book/default/chapter/15</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Buy web2py\'s book</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://stores.lulu.com/web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Community</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>None</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Groups</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://www.web2py.com/examples/default/usergroups</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Twitter</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://twitter.com/web2py</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Live Chat</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>http://webchat.freenode.net/?channels=web2py</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_iplist</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;E:\\\\Web2pyProject\\\\IPList\\\\web2py\\\\applications\\\\IPlist\\\\sessions\\\\156\\\\1f4\\\\127.0.0.1-47550b8a-5b0b-414d-8406-b3ca8de10740&#x27;, mode &#x27;rb+&#x27; at 0x000000000E5C4E40&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\sessions\\127.0.0.1-47550b8a-5b0b-414d-8406-b3ca8de10740</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>563a12ad786686c203a410414f8c90e2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-47550b8a-5b0b-414d-8406-b3ca8de10740</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_iplist</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>IPlist</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">show_toolbar</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/index.pdf</div></td></tr></table></div>'
+tRp231
+sS'locals'
+p232
+(dp233
+S'count'
+p234
+S'0'
+sS'pattern'
+p235
+S"r'&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));'"
+p236
+sS'repl'
+p237
+S'<function replaceEntities>'
+p238
+sS'flags'
+p239
+S'0'
+sS'string'
+p240
+S'\'\\r\\n&lt;!--[if (gt IE 9)|!(IE)]&gt;&lt;!--&gt; <di....com/">web2py</a>\\r\\n          </div>\\r\\n      </div>\''
+p241
+sssS'traceback'
+p242
+S'Traceback (most recent call last):\n  File "E:\\Web2pyProject\\IPList\\web2py\\gluon\\restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\views\\generic.pdf", line 9, in <module>\n    pass\n  File "E:\\Web2pyProject\\IPList\\web2py\\gluon\\contrib\\generics.py", line 76, in pdf_from_html\n    return pyfpdf_from_html(html)\n  File "E:\\Web2pyProject\\IPList\\web2py\\gluon\\contrib\\generics.py", line 67, in pyfpdf_from_html\n    pdf.write_html(html, image_map=image_map)\n  File "E:\\Web2pyProject\\IPList\\web2py\\gluon\\contrib\\fpdf\\html.py", line 400, in write_html\n    text = h2p.unescape(text) # To deal with HTML entities\n  File "C:\\Python27\\lib\\HTMLParser.py", line 472, in unescape\n    return re.sub(r"&(#?[xX]?(?:[0-9a-fA-F]+|\\w{1,8}));", replaceEntities, s)\n  File "C:\\Python27\\lib\\re.py", line 151, in sub\n    return _compile(pattern, flags).sub(repl, string, count)\nUnicodeDecodeError: \'ascii\' codec can\'t decode byte 0xe6 in position 6: ordinal not in range(128)\n'
+p243
+s.

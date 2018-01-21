@@ -1,0 +1,20 @@
+{{extend 'layout.html'}}
+<!--
+<form action="{{=URL('other')}}">
+    Your Name ?
+    <input name="your_name"/>
+    <input type="submit"/>
+</form>
+        -->
+
+<h2>Stored IP INFO</h2>
+<table class="table">
+    {{for row in rows:}}
+    <tr>
+        <td><a href="{{=URL('show',args=row.id)}}">{{=row.IPADDR}}</a></td>
+        <td>{{=row.VMNAME}}</td>
+        <td>{{=row.STATUS}}</td>
+        <td>{{=row.created_on}}</td>
+    </tr>
+    {{pass}}
+</table>

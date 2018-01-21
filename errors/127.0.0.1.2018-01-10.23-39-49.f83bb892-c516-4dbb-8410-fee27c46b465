@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.AttributeError'> 'Table' object has no attribute 'Time_stamp'"
+p3
+sS'layer'
+p4
+S'E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\controllers/default.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 061273C8, file "E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\controllers/default.py", line 8>'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "E:\\Web2pyProject\\IPList\\web2py\\gluon\\restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\controllers/default.py", line 93, in <module>\n  File "E:\\Web2pyProject\\IPList\\web2py\\gluon\\globals.py", line 419, in <lambda>\n    self._caller = lambda f: f()\n  File "E:\\Web2pyProject\\IPList\\web2py\\gluon\\tools.py", line 3982, in f\n    return action(*a, **b)\n  File "E:\\Web2pyProject\\IPList\\web2py\\applications\\IPlist\\controllers/default.py", line 27, in regip\n    db.iplist.Time_stamp.default = request.now\nAttributeError: \'Table\' object has no attribute \'Time_stamp\'\n'
+p11
+s.
